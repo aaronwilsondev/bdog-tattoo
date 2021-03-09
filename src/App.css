@@ -1,6 +1,10 @@
 body { 
   font-family: "Ubuntu";
-  padding: 20px 60px;
+  margin: 20px 80px;
+  background-color: #eeeeee;
+  
+background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+
 }
 
 a {
