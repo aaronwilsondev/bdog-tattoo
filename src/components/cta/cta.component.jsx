@@ -9,7 +9,7 @@ const CtaContainer = () => (
         className="cta-container"
         >
         
-        <h1 className="cta-heading">AHHH GOWAN</h1>
+        <h1 className="cta-heading">WHY NOT TREAT YOURSELF? </h1>
         <CustomButton>BOOK NOW</CustomButton>
         <CustomButton>VIEW GALLERY</CustomButton>
         </div>

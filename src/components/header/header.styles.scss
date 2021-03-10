@@ -3,16 +3,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     margin-top: -10px;
-    
+  
   
     .logo-container {
       height: 100%;
       width: 100px;
-      
-
-      
     }
 
     .logo {
@@ -27,11 +24,14 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+     
   
       .option {
         padding: 10px 15px ;
         font-family: "ubuntu";
         font-weight: bold;
+        
+        
        
       }
     }
