@@ -3,13 +3,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
-    margin-top: -10px;
+    margin: 15px 0 15px;
+    
+    
   
   
     .logo-container {
       height: 100%;
       width: 100px;
+      margin-left: 15px;
     }
 
     .logo {
@@ -24,6 +26,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      
      
   
       .option {

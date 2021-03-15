@@ -9,6 +9,7 @@ import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up
 import Header from "./components/header/header.component";
 import Footer from './components/footer/footer.component';
 import Faq from './components/faq/faq.component';
+import ContactUs from './pages/contact-us/contact-us.component';
 
 
 const HatsPage = () => (
@@ -27,7 +28,8 @@ function App() {
       <Route exact path="/hats" component={HatsPage} />
       <Route exact path="/shop" component={ShopPage} />
       <Route exact path="/faq" component={Faq} />
-      <Route exact to="/signin" component={SignInAndSignUpPage} />
+      <Route exact path="/signin" component={SignInAndSignUpPage} />
+      <Route exact to="/contact" component={ContactUs} />
     </Switch>
     <Footer />
     </div>

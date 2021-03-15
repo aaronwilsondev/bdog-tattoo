@@ -20,7 +20,9 @@ const Header = () => (
          <Link className="option" to="/faq">
              FAQ
          </Link>
-
+         <Link className="option" to="/gallery">
+             GALLERY
+         </Link>
         </div>
     </div>
 ) 
