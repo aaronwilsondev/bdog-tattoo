@@ -10,6 +10,7 @@ import Header from "./components/header/header.component";
 import Footer from './components/footer/footer.component';
 import Faq from './components/faq/faq.component';
 import ContactUs from './pages/contact-us/contact-us.component';
+import GalleryPage from './pages/gallery/gallery.component';
 
 
 const HatsPage = () => (
@@ -25,7 +26,7 @@ function App() {
     <Header />
     <Switch>
       <Route exact path="/" component={HomePage} />
-      <Route exact path="/hats" component={HatsPage} />
+      <Route exact path="/gallery" component={GalleryPage} />
       <Route exact path="/shop" component={ShopPage} />
       <Route exact path="/faq" component={Faq} />
       <Route exact path="/signin" component={SignInAndSignUpPage} />

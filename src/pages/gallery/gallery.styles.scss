@@ -1,0 +1,185 @@
+.gallery {
+    width: 100%;
+    height: 1500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    .gallery-hero-section {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height:500px;
+        background: url("../../images/bd-tattoo-img-10.jpg") center center/cover;
+    }
+
+    .gallery-directory {
+        width: 100%;
+        height: 1000px;
+        display: block;
+        position: absolute;
+
+        .matheus-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr; 
+            column-gap: 10px;
+            row-gap: 10px;
+            width: 80%;
+            height: 400px;
+            left: 10%;
+            right: 10%;
+            top: 0;
+            margin-top: 75px;
+            margin-bottom: 50px;
+            // background-color: grey;
+            position: absolute;
+
+            .insta-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: crimson;
+                color: white;
+                
+                h3{
+                    top:50%;
+                    left:20px;
+                }
+                
+            }
+
+            .image1 {
+                background: url("../../images/bd-tattoo-img-1.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image2 {
+                background: url("../../images/bd-tattoo-img-2.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image3 {
+                background: url("../../images/bd-tattoo-img-3.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image4 {
+                background: url("../../images/bd-tattoo-img-4.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image5 {
+                background: url("../../images/bd-tattoo-img-5.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image6 {
+                background: url("../../images/bd-tattoo-img-6.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image7 {
+                background: url("../../images/bd-tattoo-img-7.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image8 {
+                background: url("../../images/bd-tattoo-img-8.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image9 {
+                background: url("../../images/bd-tattoo-img-9.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image10 {
+                background: url("../../images/bd-tattoo-img-10.jpg") center center/cover;
+                width: 100%;
+            }
+        }
+
+        .leo-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr; 
+            column-gap: 10px;
+            row-gap: 10px;
+            width: 80%;
+            height: 400px;
+            left: 10%;
+            right: 10%;
+            top: 475px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            position: absolute;
+
+            .insta-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: crimson;
+                color: white;
+                
+                h3{
+                    top:50%;
+                    left:20px;
+                }
+            }
+
+            .image1 {
+                background: url("../../images/bd-tattoo-img-1.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image2 {
+                background: url("../../images/bd-tattoo-img-2.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image3 {
+                background: url("../../images/bd-tattoo-img-3.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image4 {
+                background: url("../../images/bd-tattoo-img-4.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image5 {
+                background: url("../../images/bd-tattoo-img-5.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image6 {
+                background: url("../../images/bd-tattoo-img-6.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image7 {
+                background: url("../../images/bd-tattoo-img-7.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image8 {
+                background: url("../../images/bd-tattoo-img-8.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image9 {
+                background: url("../../images/bd-tattoo-img-9.jpg") center center/cover;
+                width: 100%;
+            }
+
+            .image10 {
+                background: url("../../images/bd-tattoo-img-10.jpg") center center/cover;
+                width: 100%;
+            }
+
+            
+        }
+    }
+  }
+
