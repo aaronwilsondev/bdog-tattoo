@@ -2,10 +2,12 @@ import React from "react";
 
 import "./gallery.styles.scss";
 
+import {ReactComponent as Logo} from "../../assets/instagram.svg";
+
 const GalleryPage = () => (
     <div className="gallery">
      <div className="gallery-hero-section">
-
+       <h1 className="hero-section-title">check out our Artists work</h1>
      </div>
      <div className="gallery-directory">
 
@@ -29,6 +31,7 @@ const GalleryPage = () => (
       </div>
       <div className="insta-button">
           <h3>Instagram link</h3>
+          <Logo className="logo"/>
       </div>
  </div>
 
@@ -53,6 +56,7 @@ const GalleryPage = () => (
       </div>
       <div className="insta-button">
           <h3>Instagram Link</h3>
+          <Logo className="logo"/>
       </div>
  </div>
 

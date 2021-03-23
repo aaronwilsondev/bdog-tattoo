@@ -3,8 +3,10 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 15px 0 15px;
-    
+    margin: 0;
+    background-color: #ffd369;
+    // border: 2px solid;
+    // position: fixed;
     
   
   
@@ -17,7 +19,6 @@
     .logo {
       height: 100%;
       width: 100px;
-      
     }
   
     .options {

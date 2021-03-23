@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ReactComponent as Logo } from "../../assets/dog.svg";
+import { ReactComponent as Logo } from "../../assets/bddog.svg";
 
 import { Link } from "react-router-dom";
 import "./header.styles.scss";
